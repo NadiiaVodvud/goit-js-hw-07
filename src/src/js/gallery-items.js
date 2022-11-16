@@ -46,10 +46,3 @@ export const galleryItems = [
     description: 'Lighthouse Coast Sea',
   },
 ];
-
-function onClick(evt) {
-  if (evt.target.nodeName !== 'IMG') {
-    return;
-  }
-  console.log(evt.target.textContent);
-}
